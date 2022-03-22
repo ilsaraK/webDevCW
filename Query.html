@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Serendib Tours | Contact Us</title>
+	<link rel="icon" href="logo.jpg" type="image/icon type">
+	<link rel="stylesheet" href="Home.css">
+	<link rel="stylesheet" href="Query.css">
+
+
+</head>
+<body>
+
+	<section class="Navigation_Bar">
+            <nav class="links">
+                    <a href="main.html"><img class="logo" src="logo.png" alt="logo" ></a>
+                    <div class="Navigation_links" id="navLinks">
+                        <ul>
+                            <li><a href="" class="active">HOME</a></li>
+                            <li><a href="html.html ">TOURS</a>
+                            <li><a href="123.html">PRODUCTS</a></li>
+                            <li><a href="456.html">GALLERY</a></li>
+                            <li><a href="456.html">QUIZ</a></li>
+                            <li><a href="qwe.html">DEVELOPERS</a></li>
+                            <li><a href="kil.html">CONTACT US</a></li>        
+                        </ul>
+                    </div>
+            </nav>
+    </section>
+
+	             
+  <div class="contact_us">
+            <div class="query_title">
+                Query Form
+            </div>
+
+            <form action="check.html" method="get" name="que_form" onsubmit="return validateForm(event);">
+                <div class="query_form">
+                    <div class="query_input">
+                        <label>First Name</label>
+                        <input type="text" class="form_input" name="fname" id="fname">
+                    </div>
+
+                    <div class="query_input">
+                        <label>Last Name</label>
+                        <input type="text" class="form_input" name="lname" id="lname">
+                    </div>
+
+                    <div class="query_input">
+                        <label>Email Address</label>
+                        <input type="email" class="form_input" name="email" id="email">
+                    </div>
+
+                    <div class="query_input">
+                        <label>Subject</label>
+                        <div class="subject_select">
+                            <select name="subject" id="subject">
+                                <option value="">Select</option>
+                                <option value="delivery">Delivery</option>
+                                <option value="locations">Locations</option>
+                                <option value="booking">Booking</option>                              
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="query_input">
+                        <label>Details</label>
+                        <textarea class="form_textarea" name="details" id="details"></textarea>
+                    </div>
+
+					<div class="btn">
+                    <div class="query_input">
+                        <button class="form_button" type="submit" id="view">view query</button>
+                    </div>
+
+                    <div class="query_input">
+                        <button class="form_button-submit" type="submit" id="submit">submit</button>
+                 </div>
+               </div>
+            </form>
+            
+        </div>
+
+
+ 
+
+	<section>
+	<!-- site Map + info -->
+		
+	</section>
+
+<script src="query.js"></script>
+
+</body>
+</html>	
